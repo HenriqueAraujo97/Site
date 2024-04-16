@@ -13,6 +13,7 @@
     "create-typed-sdk": "^1.0.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
     "react-particles-js": "^3.6.0",
     "react-scripts": "5.0.1",
     "react-typed": "^2.0.12",

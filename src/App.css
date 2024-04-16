@@ -166,3 +166,88 @@ nav ul li {
   color: var(--primary-white);
   transition: .2s ease-in-out;
 }
+
+
+/****************************** Body ****************/
+
+.body{
+  max-width: 1180px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+.about{
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.experience{
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.education{
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.skills{
+  width: 100%;
+  padding: 2rem 0;
+}
+
+
+
+/****************************** Footer ****************/
+
+.footer{
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #fff;
+}
+
+.footer-container{
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.left{
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+}
+
+.location{
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.email{
+  display: flex;
+  margin-top: 0.8rem;
+  color: white;
+}
+
+
+.location p{
+  line-height: 30px;
+  color: white;
+}
+
+.right {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+}
+
+.social{
+  margin-top: 1rem;
+}
